@@ -1,0 +1,30 @@
+.Button {
+        font-size: 30px;
+        background-color: #00a5ab;
+        margin: 10px;
+        padding: 10px;
+        width: 100px;
+        border: 3px solid black;
+        border-radius: 30px;
+        color: white;
+}
+
+.Count {
+        font-size: 150px;
+        padding: 20px;
+}
+.ParentCount{
+        color: #00a5ab;
+        font-size: 200px;
+}
+
+.ResetButton{
+        font-size: 30px;
+        margin: 10px;
+        padding: 10px;
+        width: 150px;
+        color: white;
+         border: 3px solid black;
+         border-radius: 30px;
+         background-color: #9404cd;
+}
