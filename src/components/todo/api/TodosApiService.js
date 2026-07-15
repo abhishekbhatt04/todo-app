@@ -11,3 +11,6 @@ const apiCLient=axios.create(
 
 export const retrieveTodosForUser
                           =(username)=>apiCLient.get(`/username/${username}/todos`)
+
+export const deleteTodoApi
+                          =(username,id)=>apiCLient.delete(`/username/${username}/todos/${id}`)
