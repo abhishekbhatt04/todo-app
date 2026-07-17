@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom"
 
 export default function ListTodosComponent(){
 
-    const today =new Date()
+    // const today =new Date()
     // const targetdate=new Date(today.getFullYear()+10,today.getMonth(),today.getDate())
     const[todos,setTodos]=useState([])
     const[message,setMessage]=useState(null)
